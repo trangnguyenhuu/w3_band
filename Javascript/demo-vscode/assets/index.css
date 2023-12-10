@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.content {
+    flex: 1;
+    padding: 0 32px;
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-table {
+        display: none;
+    }
+}
+
+@media (max-width: 739px)  {
+    .hide-on-mobile {
+        display: none;
+    }
+}
